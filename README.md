@@ -50,3 +50,15 @@ It's also pretty useful filtering text or o/p of curl commands with grep as foll
 ; runs commands sequentially</br>
 & runs commands parrelel</br>
 
+
+## Scheduling jobs
+cron allows u to do that</br>
+crond is the cron deamon which checks 'crontab files' every minute and submits job to cron</br>
+crontab is a table contains jobs and scedule data
+<i>crontab -e</i> opens the editor</br>
+<b>U add commands describing jobs as follows:</b></br>
+<i>m h dom mon dow command</i></br>
+all 5 position must have numeric or * for any</br>
+> dow 0:sunday and so on</br>
+
+<i>crontab -l</i> gets the jobs and scedules
